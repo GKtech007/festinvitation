@@ -1,0 +1,125 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+@media (min-width: 766px) and (max-width: 10000px) {
+
+
+  body {
+      margin: 0%;
+      padding: 0%;
+      /* border:3px solid red; */
+      width: 100%;
+      /* height: fit-content; */
+      /* height: 70%; */
+    }
+  
+    .home {
+      background-image: url(event2bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .namelogo {
+      display: flex;
+      border-bottom: 3px solid cyan;
+    }
+  
+    .namelogo img {
+      border-radius: 50px;
+      width: 20%;
+    }
+  
+    #cname {
+      margin: auto;
+      color: red;
+      font-size: 60px;
+      font-style: italic;
+      text-align: center;
+    }
+  
+    #annual {
+      text-align: center;
+      color:rgb(255, 183, 0);
+    }
+    nav ul {
+      padding: 0%;
+    }
+  
+    nav ul li {
+      list-style: none;
+      text-align: center;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  
+    .nav ul li a {
+      text-decoration: none;
+      color:cyan;
+      font-weight: bold;
+      font-size: xx-large;
+    }
+    .nav ul li a:hover {
+      text-decoration-line: underline;
+      border-bottom: maroon;
+    }
+  
+    #guestname {
+      text-align: center;
+      color: rgb(255, 251, 0);
+    }
+  
+    .guestwelcome {
+      /* border: 3px solid red;   */
+      /* display: flex; */
+      text-align: center;
+      padding: 20px;
+    }
+  
+    #guestpic {
+      width: 40%;
+      border-radius: 50px;
+      /* height: 70%; */
+    }
+  
+    #welcomingpara {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    #welcomingpara p {
+      color: rgb(0, 255, 110);
+      width:100%;
+      font-size: larger;
+      font-weight: bold;
+    }
+    .venuetime {
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+    }
+  
+    .venuetime p {
+      text-align: center;
+      display: flex;
+      font-size: xx-large;
+      color: mediumvioletred;
+    }
+  
+    .venuetime b {
+      color: rgb(77, 77, 184);
+    }
+  
+    footer {
+      text-align: center;
+      background-color: rgb(179, 173, 166);
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 1px;
+    }
+  }
+  

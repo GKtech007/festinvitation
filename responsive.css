@@ -1,0 +1,95 @@
+@media (min-width: 51px) and (max-width: 765px) {
+    .namelogo {
+      display: flex;
+      text-align: center;
+      background-color: mediumpurple;
+    }
+    img {
+      width: 10%;
+    }
+  
+    #cname {
+      width: 100%;
+      font-size: medium;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    #annual {
+      text-align: center;
+      font-style: italic;
+      color: rgb(184, 22, 22);
+    }
+  
+    nav ul {
+      padding: 0%;
+    }
+  
+    nav ul li {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(221, 12, 12);
+      background-color: #ffe4e1;
+      border-radius: 20%;
+    }
+  
+    .nav ul li a:hover {
+      text-decoration-line: underline;
+    }
+  
+    #guestname {
+      text-align: center;
+      font-size: medium;
+      color: mediumvioletred;
+    }
+  
+    .guestwelcome {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #guestpic {
+      width: 50%;
+    }
+  
+    #welcomingpara {
+      margin: 0px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    #welcomingpara p {
+      color: seagreen;
+      font-size: small;
+      font-weight: bold;
+    }
+  
+    .venuetime {
+      padding: 0px;
+      margin: 0px;
+      text-align: center;
+    }
+  
+    .venuetime p {
+      text-align: center;
+      font-size: medium;
+    }
+  
+    .venuetime b {
+      color: blue;
+    }
+  
+    footer {
+      text-align: center;
+      background-color: burlywood;
+      font-size: small;
+      padding: 0%;
+    }
+  }
+  
