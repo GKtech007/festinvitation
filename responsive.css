@@ -1,4 +1,10 @@
 @media (min-width: 51px) and (max-width: 765px) {
+    
+    body{
+      background-image: url(eventbg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
     .namelogo {
       display: flex;
       text-align: center;
